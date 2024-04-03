@@ -1,0 +1,528 @@
+body{
+    background-color: white;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Poppins';
+}
+.main-page{
+    margin:20px 20px 20px 20px;
+    padding: 20px 50px 20px 50px;
+}
+.nav-bar-div{
+    justify-content: right space-between;
+}
+.best-dest-style{
+    color: rgba(223,105,81,255); 
+    font-size: 20px;
+}
+.travel-enjoy-style{
+    font-size: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1;
+}
+.travel-sub-text-style{
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 1.4;
+    color: rgb(101,105,136);
+}
+.color-grey{
+    color: rgb(94,98,130);
+}
+.color-grey-size{
+    color: rgb(94,98,130);
+    font-size: 14px;
+}
+.category-style{
+    font-size: 15px; 
+    text-align: center;
+}
+.text-color-grey{
+    color: #626685;
+}
+.best-services-style{
+    font-size: 40px; 
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.nav-bar-item{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    height: auto;
+    border: 0px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 10px;
+    margin-right:10px;
+    font-size: 18px;
+
+}
+.nav-bar-language-sel{
+    border: 0px;
+    margin-left: 10px;
+    margin-right: 0px;
+    padding: 5px 5px 5px 5px;
+    font-size: 16px;
+}
+.nav-bar-item-signup{
+    background-color: white;
+    border:2px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80px;
+    font-size: 16px;
+    padding: 5px 5px 5px 5px;
+}
+.first-front-logo{
+    width:90%;
+    height:auto;
+}
+.main-page-container1{
+    display:flex;
+    justify-content: space-between;
+    column-gap: 0px;
+    align-items: center;
+}
+.traveller-logo{
+    width:600px;
+    -webkit-user-drag: none;
+}
+.find-out-btn{
+    background-color: rgb(234, 163, 32);
+    box-shadow: 0px 4px 10px #fef0cf;
+    color: white;
+    border: 0px;
+    width:120px;
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.cat-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 70px;
+    margin-left:30px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.category-img{
+    width:125px;
+    height: 125px;
+}
+.top-sell-style{
+    font-size: 20px; 
+    text-align: center;
+}
+.top-dest-style{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.top-destination-div{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    margin-bottom: 100px;
+}
+.location-images{
+    width: 350px;
+    height:350px;
+}
+.book-next-trip{
+    display:grid;
+    grid-template-columns: 370px 180px 500px;
+    align-items: center;
+}
+.trip-greece-img{
+    width:400px;
+    height: auto;
+}
+.trip-greece-img-div{
+    padding: 20px 20px 10px 20px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 45px;
+    box-shadow: 7px -7px 20px 5px rgb(227, 241, 250);
+    position: relative;
+    top: 50px;
+    z-index: -1;
+}
+.book-next-{
+    display: grid;
+    grid-template-columns: 100px 430px;
+}
+.book-next-sub-img-width{
+    width:80px;
+}
+.font-large{
+    font-size: 38px;
+}
+.book-next-trip-text{
+    position:relative;
+    top:-14px;
+}
+.subscribe-div{
+    background-color: rgba(249,247,254,255);
+    background-repeat: no-repeat;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width:94%;
+    padding: 40px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 1;
+}
+.cal-weather-size{
+    font-size: 17px;
+}
+.subscribe-btn{
+    color:white;
+    background-color:rgb(255, 139, 107);
+    border:0px;
+    height:45px;
+    width:100px;
+    border-radius: 5px;
+}
+.email-inp{
+    background-color: white;
+    position: relative;
+    width:300px;
+    height:45px;
+    border-radius: 10px;
+    border:0px;
+    padding-left: 44px;
+    background-image: url(./images/email_envelop.jpg);
+    z-index: 4;
+    background-size: 15px;
+    background-position: 20px 15.5px;
+    background-repeat: no-repeat;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.travel-pro-div{
+    padding-top: 20px;
+}
+.small-fb{
+    position: relative;
+    top: 1.5px;
+    width: 31.5px;
+}
+.small-insta{
+    width: 44px;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+}
+.small-twitter{
+    margin-left: 10px;
+    width: 30px;
+}
+.social-media-details{
+    padding-top: 43px;
+}
+.details-div{
+    position: relative;
+    top:45px;
+    left:30px;
+}
+.move-aside{
+    width: 150px;
+}
+.send-logo{
+    width: 50px;
+    position: relative;
+    top: 90px;
+    left: 83%;
+    z-index: 2;
+}
+.send-img{
+    width: 25px;
+    margin-left: 13px;
+}
+.no-of-trip-days-div{
+    display: grid;
+    grid-template-columns: 40px 100px;
+}
+.no-of-trip-days-style{
+    position: relative;
+    top: -13px;
+    left: 6px;
+    font-family: 'Times New Roman', Times, serif; 
+    color:rgb(174, 169, 169);
+}
+.book-trip-style{
+    font-size: 42px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.design-plus-style{
+    width: 100px;
+    position: relative;
+    left: 97%;
+    top: 80px;
+    z-index: 0;
+}
+.design-plus-{
+    width: 100px;
+    position: relative;
+    left: 97%;
+    top: -40px;
+}
+.Locations{
+    box-shadow: 0px 0px 10px rgb(224, 223, 223);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.trip-rome-style{
+    font-size: 20px;
+    margin: 0px;
+}
+.map-small{
+    width: 38px;
+    height: auto;
+}
+.black-send-logo{
+    width : 25px;
+    position: relative;
+    top: 7px;
+}
+.location-names-style{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(174, 169, 169);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.Locations:hover{
+    transform: scale(1.04);
+}
+.services-transitions{
+    transition: 0.5s;
+    padding: 10px 7px 0px 7px;
+}
+.services-transitions:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 7px rgb(173, 173, 173);
+    border-radius: 20px;
+}
+.trip-to-rome{
+    display: flex;
+    width: 260px;
+    height: auto;
+    padding: 20px 10px 5px 10px;
+    box-shadow: 0px 0px 10px rgb(142, 141, 141);
+    border-radius: 30px;
+    z-index: 1;
+    position: relative;
+    top: 120px;
+    left: 245%;
+    background-color: white;
+}
+.rome-img-round{
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.like-button{
+    width: 4%;
+    position: relative;
+    top: -31px;
+    left: 370px;
+}
+.trip-rome{
+    position: relative;
+    top: -17px;
+}
+.text-color-light-brown{
+    color: rgb(174, 169, 169);
+    font-size: 14px;
+}
+.spiral-bg-img2{
+    width: 330px;
+    opacity: 0.3;
+    position: relative;
+    z-index: 3;
+    top: -248px;
+    left: 0px;
+}
+.spiral-bg-img1{
+    width: 150px;
+    rotate: -90deg;
+    position: relative;
+    z-index: 2;
+    left: 89.2%;
+    top: 190px;
+    opacity: 0.3;
+}
+progress {
+    border: 0px;
+    border-radius: 20px;
+    height: 8px;
+ }
+ progress::-webkit-progress-bar {
+    border-radius: 10px;
+    background-color: rgb(245,245,245);
+}
+progress::-webkit-progress-value {
+    background-color: rgb(138,121,223);
+    border-radius: 20px;
+ }
+.get-app-now{
+    width: 200px;
+    position: relative;
+    top: -23px;
+    left: -10px;
+    z-index: 0;
+}
+.discover-our-app-style{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 1;
+}
+.google-play-badge-img{
+    width: 80px;
+    border-radius: 25px;
+}
+.apple-play-badge{
+    background-image: url(./images/apple\ store\ image.jpg);
+    background-size: 82px;
+    width: 82px;
+    height: 26px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.discover-ggl-apl{
+    display: flex;
+    justify-content: space-between;
+}
+
+.other-links{
+    padding-top: 27px;
+}
+.position-move-down{
+    margin-bottom: 25px;
+}
+.pos-little-down{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.location-names{
+    margin-top: 7px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.price-location{
+    padding-right: 20px;
+}
+@media screen and (max-width : 600px){
+    .main-page{
+        margin: 5px 5px 5px 5px;
+        padding: 5px 20px 5px 20px;
+    }
+    .main-page-container1{
+        display: block;
+    }
+    .front-logo{
+        width: 100%;
+        align-items: center;
+    }
+    .nav-bar-div{
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .traveller-logo{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .cat-div{
+        display: block;
+    }
+    .services-transitions{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .top-destination-div{
+        display: block;
+        align-items: center;
+    }
+    .Locations{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .location-images{
+        width: 100%;
+        height: auto;
+    }
+    .book-next-trip{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .trip-to-rome{
+        display: none;
+    }
+    .book-next-{
+        width: 100%;
+    }
+    .font-large{
+        width: 100%;
+    }
+    .book-next-sub-img-width{
+        width: 80%;
+        height: auto;
+    }
+    .book-next-trip-text{
+        width: 40%;
+    }
+    .trip-greece-img{
+        width: 100%;
+    }
+    .send-logo{
+        display: none;
+    }
+    .trip-greece-img-div{
+        width: 100%;
+        margin-bottom: 20%;
+    }
+    .like-button{
+        display: none;
+    }
+    .booknext{
+        width: 100%;
+        word-wrap: break-word;
+    }
+    .other-links{
+        width: 100%;
+    }
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .spiral-bg-img1,.spiral-bg-img2,.design-plus-,.design-plus-style{
+        display: none;
+    }
+    .email-inp{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .color-grey{
+        font-size: medium;
+    }
+    .subscribe-div{
+        width: 70%;
+    }
+    
+} 
